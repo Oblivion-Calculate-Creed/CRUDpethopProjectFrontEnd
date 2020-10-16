@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SCOTTS PETSHOP</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="util.css">
+
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+
+	<div class="form">
+		<div class="wrap-contact100">
+			<form class="contact100-form title" id="createForm">
+				<span class="contact100-form-title">
+					WELCOME TO SCOTT'S PETSHOP
+
+					Please fill out the form below...
+				</span>
+
+				<label class="label-input100" for="first-name">Name</label>
+				<div class="wrap-input100 rs1-wrap-input100">
+					<input id="first-name" class="input100" type="text" name="givenname" placeholder="Given Name">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 rs2-wrap-input100">
+					<input id="common-name" class="input100" type="text" name="commonname" placeholder="Common Name (Breed)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="type">Enter Type of Animal</label>
+				<div class="wrap-input100">
+					<input id="type" class="input100" type="text" name="type" placeholder="Dog, Cat etc.">
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="price">Enter Price</label>
+				<div class="wrap-input100">
+					<input id="price" class="input100" type="text" name="price" placeholder="£">
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="sex">Enter Sex</label>
+				<div class="wrap-input100">
+					<input id="sex" class="input100" type="text" name="sex" placeholder="Male or Female">
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="colour">Enter Colour</label>
+				<div class="wrap-input100">
+					<input id="colour" class="input100" name="colour" placeholder="Black, White etc."></input>
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="date">Enter Date</label>
+				<div class="wrap-input100" data-validate = "Date required in format DD/MM/YY">
+					<input id="date" class="input100" name="date" placeholder="DD/MM/YY"></input>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" type= "submit">
+						Submit Form
+					</button>
+				</div>
+			</form>
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('images/Puppy\ Background.jpg');">
+				<div class="flex-w size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							We are located at:
+						</span>
+
+						<span class="txt2">
+							Petshop FrontEnd
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Call us on:
+						</span>
+
+						<span class="txt3">
+							8081
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Any further questions or queries please email:
+						</span>
+
+						<span class="txt3">
+							snicolson@qa.com
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="outputCards" class="card-deck m-3">
+
+	</div>
+	<script src="index.js"></script>
+
+</body>
+</html>
